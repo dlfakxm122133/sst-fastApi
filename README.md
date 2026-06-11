@@ -10,7 +10,9 @@ venv\Scripts\activate
 deactivate
 
 3.패키지 설치
-pip install fastapi uvicorn openai python-dotenv requests pandas# 경기도 스마트 여행 플래너 — FastAPI AI Server
+pip install fastapi uvicorn openai python-dotenv requests pandas
+
+# 경기도 스마트 여행 플래너 — FastAPI AI Server
 
 > **팀명**: 머지크루  
 > **팀원**: 김영훈, 김지태, 노송현, 소제우, 손상진, 한상인  
