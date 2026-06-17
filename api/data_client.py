@@ -7,6 +7,7 @@ def fetch_place_list(region: str, themes: str) -> list:
     """
     Spring API에서 여행지 목록 조회 후 리스트 반환
     """
+    # Spring 서버 호출
     response = requests.get(
         f"{SPRING_API_URL}/api/ai/travel/list",
         params={
